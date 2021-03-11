@@ -63,7 +63,7 @@ With fruther analyzys we were able to find out and create vocabluary of only wor
 
 
 <p align="center">
-    <img src="images/venn.png" alt="drawing" width="900" hight="500"/>
+    <img src="images/venn.png" alt="drawing" width="600" hight="300"/>
 
 
 ## Modeling
