@@ -76,7 +76,8 @@ Starting with base line models on inbalance data 3 different models were applied
 
 Next step was to run the same 3 models on ballanced data. Following table shows perfomance of each model on test set.
 
-
+<p align="center">
+    <img src="images/results.png" alt="drawing" width="600" hight="300"/>
 
 ## Results
 
