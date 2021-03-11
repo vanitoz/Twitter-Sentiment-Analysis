@@ -49,7 +49,7 @@ During EDA we discovered that data from Cornell University appears to be inbalan
 
 <img src="images/class_inbal.png" width="500"/> <img src="images/class_balan.png" width="500"/>
  
-
+After 
 
 
 
