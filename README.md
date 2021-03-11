@@ -56,6 +56,18 @@ After appropriate Pre-Protcesing that include Tokenization, Remowing Stop-words 
 
 After
     
+
+<table>
+  <tr>
+    <td>Title 1</td>
+     <td>Title 2</td>
+  </tr>
+  <tr>
+    <td><img src="images/hate_speech_wordcloud.png" width=270 height=480></td>
+    <td><img src="images/not_hate_speech_wordcloud.png.png" width=270 height=480></td>
+  </tr>
+ </table>
+
 <img src="images/hate_speech_wordcloud.png" title="title-1" width="400"/> <img src="images/not_hate_speech_wordcloud.png" width="400"/>
  
 
