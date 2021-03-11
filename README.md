@@ -24,14 +24,16 @@ Which includes all following pmpotrtant steps:
 7. Present your solution. 
 8. Launch, monitor, and maintain system.
 
-![Blight](images/approach.png)
+<p align="center">
+    ![Blight](images/approach.png)
 
 ## Methodology
 
 Based on our buisness problem we are trying to accomplish certain tasks that involve natural language. 
 NLP allows computers to interact with text data in a structured and sensible way. With NLP, computers are taught to understand human language, its meaning and sentiments. In order to translate complex natural human language into systematic constructed features we need to foolow some major steps:
 
-<img src="images/NLP_protcess.png" alt="drawing" width="400" hight="250"/>
+<p align="center">
+    <img src="images/NLP_protcess.png" alt="drawing" width="600" hight="300"/>
 
 
 
