@@ -52,7 +52,7 @@ During EDA we discovered that data from Cornell University appears to be inbalan
 After appropriate Pre-Protcesing that include Tokenization, Remowing Stop-words and Cleaning Data we were able to generate freequency distribution of words within whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turn data into  Docunent-Term Matrix. Graph below shows 25 most freequent words that we were able to find in each class that belong to main corpus.
 
 <p align="center">
-    <img src="images/word_count_graphs.png" alt="drawing" width="600" hight="300"/>
+    <img src="images/word_count_graphs.png" alt="drawing" width="900" hight="600"/>
     
     
 
