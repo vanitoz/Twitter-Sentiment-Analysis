@@ -65,7 +65,7 @@ With fruther analyzys we were able to find out and create vocabluary of only wor
 <p align="center">
     <img src="images/venn.png" alt="drawing" width="600" hight="300"/>
 
-Next
+Graph above represents venn diagram that show how many unique words belong to each class and how many words showing up in both classes. 3391 words showing up in both classes which makes difficult for machine learning model to predict correct lable on particular tweets.
 
 
 ## Modeling
