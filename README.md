@@ -85,7 +85,7 @@ Recall: 0.937
 Testing Accuracy: 0.7816
 F1 Score: 0.8094
 
-Confusion Matrix below explains 
+Confusion Matrix below explain high True Positive rate. In this business context, we would ideally want as many True Positives as possible, because that would be identifying Hate Speech correctly.
 
 <p align="center">
     <img src="images/matrix.png" alt="drawing" width="350" hight="350"/>
