@@ -63,8 +63,8 @@ After
      <td>Title 2</td>
   </tr>
   <tr>
-    <td><img src="images/hate_speech_wordcloud.png" width=270 height=480></td>
-    <td><img src="images/not_hate_speech_wordcloud.png.png" width=270 height=480></td>
+    <td><img src="images/hate_speech_wordcloud.png" width=400 height=200></td>
+    <td><img src="images/not_hate_speech_wordcloud.png.png" width=400 height=200></td>
   </tr>
  </table>
 
