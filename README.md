@@ -25,8 +25,8 @@ Which includes all following pmpotrtant steps:
 8. Launch, monitor, and maintain system.
 
 <p align="center">
-    ![Blight](images/approach.png)
-
+    <img src="images/approach.png" alt="drawing" width="600" hight="300"/>
+    
 ## Methodology
 
 Based on our buisness problem we are trying to accomplish certain tasks that involve natural language. 
