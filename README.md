@@ -68,7 +68,7 @@ With WordCloud library we were able to create bags of most imporatnt words in ea
  </table>
 
 
-![alt-text-1](images/hate_speech_wordcloud.png "title-1") ![alt-text-2](images/not_hate_speech_wordcloud.png "title-2")
+![alt-text-1]("images/hate_speech_wordcloud.png" width = "400") ![alt-text-2](images/not_hate_speech_wordcloud.png "title-2")
 
 ## Modeling
 
