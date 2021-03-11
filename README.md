@@ -66,12 +66,15 @@ With fruther analyzys we were able to find out and create vocabluary of only wor
     <img src="images/venn.png" alt="drawing" width="600" hight="300"/>
 
 Graph above represents venn diagram that show how many unique words belong to each class and how many words showing up in both classes. 3391 words showing up in both classes which makes difficult for machine learning model to predict correct lable on particular tweets.
+After futers engeneering with TF-IDF Vectorization the next step take place for creating models and evaluate them.
 
 
 ## Modeling
 
-F1 score and Recall was used 
-After futer engeneering with TF-IDF Vectorization 3 models where 
+F1 score and Recall was used as main evaluation metrics for this project. We want to classify correct hate speech as much as possible and so that it can be efficiently removed. 
+Starting with base line models on inbalance data 3 different models were applied. Best result was shown by Random Forest Model with Recall = 12% and F1-score = 19%
+
+Next step was to run the same 3 models on ballanced data. Following table shows perfomance of each model on test set.
 
 
 
