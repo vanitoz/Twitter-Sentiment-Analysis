@@ -31,7 +31,7 @@ Which includes all following pmpotrtant steps:
 Based on our buisness problem we are trying to accomplish certain tasks that involve natural language. 
 NLP allows computers to interact with text data in a structured and sensible way. With NLP, computers are taught to understand human language, its meaning and sentiments. In order to translate complex natural human language into systematic constructed features we need to foolow some major steps:
 
-<img src="images/NLP_protcess.png" alt="drawing" width="300" hight="150"/>
+<img src="images/NLP_protcess.png" alt="drawing" width="400" hight="250"/>
 
 
 
