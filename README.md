@@ -88,7 +88,7 @@ F1 Score: 0.8094
 Confusion Matrix below explains 
 
 <p align="center">
-    <img src="images/matrix.png" alt="drawing" width="500" hight="250"/>
+    <img src="images/matrix.png" alt="drawing" width="100" hight="100"/>
 
 ## Conclusion
 
