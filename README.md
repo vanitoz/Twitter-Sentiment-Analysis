@@ -48,12 +48,9 @@ During EDA we discovered that data from Cornell University appears to be inbalan
  
 
  
-<img align="left" src="images/class_inbal.png" hspace="10"/>
-<img align="right" src="images/class_balan.png" hspace="10"/>
+<img align="left" src="images/class_inbal.png" >
+<img align="right" src="images/class_balan.png" >
 
-<br/><br/><br/>
- 
-![alt-text-1](images/class_inbal.png "title-1") ![alt-text-2](images/class_balan.png "title-2")
 
 
 
