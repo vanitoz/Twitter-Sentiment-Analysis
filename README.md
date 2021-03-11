@@ -59,6 +59,11 @@ With WordCloud library we were able to create bags of most imporatnt words in ea
 <p align="center">
     <img src="images/clouds.png" alt="drawing" width="900" hight="500"/>
 
+With fruther analyzys we were able to find out and create vocabluary of only words that belong to tweets labeled as hate speech. We found 6312 words that exclusivly belong to tweets labeled as hate speech. Majority of hate speech words are racist, sexist and homophobic slurs that exceed cultural slang. The fact that these words are unique to the "Hate Speech" label affirm that it's indeed hate speech that should be flagged and taken down.
+
+
+<p align="center">
+    <img src="images/venn.png" alt="drawing" width="900" hight="500"/>
 
 
 ## Modeling
