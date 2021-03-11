@@ -56,20 +56,10 @@ After appropriate Pre-Protcesing that include Tokenization, Remowing Stop-words 
 
 With WordCloud library we were able to create bags of most imporatnt words in each class. We also observed that both classes has lots of the same words that located in corpus of our data.
 
-<table>
-  <tr>
-    <td>              Hate Speech Cloud</td>
-     <td>             Not Hate Speech Cloud</td>
-  </tr>
-  <tr>
-    <td><img src="images/hate_speech_wordcloud.png" width=400 height=200></td>
-    <td><img src="images/not_hate_speech_wordcloud.png" width=400 height=200></td>
-  </tr>
- </table>
+<p align="center">
+    <img src="images/clouds.png" alt="drawing" width="600" hight="300"/>
 
 
-
-<img src="images/hate_speech_wordcloud.png" title = "title 1" width="425"/> <img src="images/not_hate_speech_wordcloud.png" width="425"/> 
 
 ## Modeling
 
