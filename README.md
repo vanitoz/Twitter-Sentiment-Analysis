@@ -56,7 +56,7 @@ After appropriate Pre-Protcesing that include Tokenization, Remowing Stop-words 
 
 After
     
-<img src="images/hate_speech_wordcloud.png" width="500"/> <img src="images/not_hate_speech_wordcloud.png" width="500"/>
+<img src="images/hate_speech_wordcloud.png" title="title-1" width="400"/> <img src="images/not_hate_speech_wordcloud.png" width="400"/>
  
 
 ## Modeling
