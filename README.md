@@ -42,6 +42,7 @@ Based on our business problem we are trying to accomplish certain tasks that inv
 
 ## Analysis
 
+Data for this project was soursed from a study about Automated Hate Speech Detection and the Problem of Offensive Language conducted by team of Cornell University in 2017. Aditional data sourse from Association for Computational Linguistics provide us labeled data with tweets ID's that contain hate speech. Links to data sourses can be finded in references below.
 
 
 ## Modeling
