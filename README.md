@@ -53,9 +53,11 @@ After appropriate Pre-Protcesing that include Tokenization, Remowing Stop-words 
 
 <p align="center">
     <img src="images/word_count_graphs.png" alt="drawing" width="900" hight="600"/>
-    
-    
 
+After
+    
+<img src="images/hate_speech_wordcloud.png" width="500"/> <img src="images/not_hate_speech_wordcloud.png" width="500"/>
+ 
 
 ## Modeling
 
