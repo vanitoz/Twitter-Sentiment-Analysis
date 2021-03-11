@@ -68,8 +68,6 @@ After
   </tr>
  </table>
 
-<img src="images/hate_speech_wordcloud.png" title="title-1" width="400"/> <img src="images/not_hate_speech_wordcloud.png" width="400"/>
- 
 
 ## Modeling
 
