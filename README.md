@@ -70,6 +70,8 @@ Graph above represents venn diagram that show how many unique words belong to ea
 
 ## Modeling
 
+F1 score and Recall was used 
+After futer engeneering with TF-IDF Vectorization 3 models where 
 
 
 
