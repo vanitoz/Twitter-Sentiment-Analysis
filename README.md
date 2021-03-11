@@ -22,12 +22,15 @@ Which includes all following pmpotrtant steps:
 5. Select a model and train it. 
 6. Fine-tune your model. 
 7. Present your solution. 
-8. Launch, monitor, and maintain your system.
+8. Launch, monitor, and maintain system.
 
 ![Blight](images/approach.png)
 
 ## Methodology
 
+NLP allows computers to interact with text data in a structured and sensible way. With NLP, computers are taught to understand human language, its meaning and sentiments. Some of the applications of natural language processing are:
+
+![Blight](images/NLP_protcess.png)
 
 ## Analysis
 
