@@ -80,7 +80,6 @@ Next step was to run the same 3 models on ballanced data. Following table shows 
     <img src="images/results.png" alt="drawing" width="500" hight="250"/>
  
 Based on results, the heighest Recall and F-1 score acchived with Random Forest and Naive Bayes classifier. Following step was to use GridSearch with Random Forest classifier to get best parameters in order to achive higer Recall score. Random Forest with Hyper Parameters selected with GridSearch let us create final model with following results on testing data:
-
 Precision: 0.7124
 Recall: 0.937
 Testing Accuracy: 0.7816
