@@ -59,12 +59,12 @@ After
 
 <table>
   <tr>
-    <td>Title 1</td>
-     <td>Title 2</td>
+    <td>Hate Speech Cloud</td>
+     <td>Not Hate Speech Cloud</td>
   </tr>
   <tr>
     <td><img src="images/hate_speech_wordcloud.png" width=400 height=200></td>
-    <td><img src="images/not_hate_speech_wordcloud.png.png" width=400 height=200></td>
+    <td><img src="images/not_hate_speech_wordcloud.png" width=400 height=200></td>
   </tr>
  </table>
 
