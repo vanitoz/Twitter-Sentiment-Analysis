@@ -72,14 +72,19 @@ After futers engeneering with TF-IDF Vectorization the next step take place for 
 ## Modeling
 
 F1 score and Recall was used as main evaluation metrics for this project. We want to classify correct hate speech as much as possible and so that it can be efficiently removed. 
-Starting with base line models on inbalance data 3 different models were applied. Best result was shown by Random Forest Model with Recall = 12% and F1-score = 19%
+Starting with base line models, Random Forest, Naive Bayes, Logistic Regression was applied to inbalance data. Best result was shown by Random Forest Model with Recall = 12% and F1-score = 19%
 
 Next step was to run the same 3 models on ballanced data. Following table shows perfomance of each model on test set.
 
 <p align="center">
-    <img src="images/results.png" alt="drawing" width="600" hight="300"/>
+    <img src="images/results.png" alt="drawing" width="500" hight="250"/>
+ 
+Based on results, the heighest Recall and F-1 score acchived with Random Forest and Naive Bayes classifier. Following step was to use GridSearch with Random Forest classifier to get best parameters in order to achive higer Recall score. Random Forest with Hyper Parameters selected with GridSearch let us create final model with following results on testing data:
 
-## Results
+Precision: 0.7124
+Recall: 0.937
+Testing Accuracy: 0.7816
+F1 Score: 0.8094
 
 
 ## Conclusion
