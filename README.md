@@ -25,7 +25,7 @@ Which includes all following pmpotrtant steps:
 8. Launch, monitor, and maintain system.
 
 <p align="center">
-    <img src="images/approach.png" alt="drawing" width="600" hight="300"/>
+    <img src="images/approach.png" alt="drawing" width="500" hight="200"/>
     
 ## Methodology
 
