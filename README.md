@@ -54,7 +54,7 @@ After appropriate Pre-Protcesing that include Tokenization, Remowing Stop-words 
 <p align="center">
     <img src="images/word_count_graphs.png" alt="drawing" width="900" hight="600"/>
 
-With WordCloud library we were able to create bags of most imporatnt words in each class. We also observed that both classes has lots of the same words that located in corpus of our data.
+With WordCloud library we were able to create bags of most imporatnt words in each class. We also observed that both classes has lots of the same words that located in corpus of our data. Because of the similarities of each label’s vocabulary, it could be difficult for machine learning algorithms to differentiate between them and determine what counts as hate speech.
 
 <p align="center">
     <img src="images/clouds.png" alt="drawing" width="900" hight="500"/>
