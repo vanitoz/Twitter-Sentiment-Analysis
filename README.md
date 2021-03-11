@@ -24,7 +24,7 @@ Which includes all following pmpotrtant steps:
 7. Present your solution. 
 8. Launch, monitor, and maintain your system.
 
-![Blight](images/479px-CRISP-DM_Process_Diagram.png)
+![Blight](images/approach.png)
 
 ## Methodology
 
