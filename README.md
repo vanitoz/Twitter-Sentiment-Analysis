@@ -59,8 +59,8 @@ After
 
 <table>
   <tr>
-    <td>Hate Speech Cloud</td>
-     <td>Not Hate Speech Cloud</td>
+    <td>              Hate Speech Cloud</td>
+     <td>             Not Hate Speech Cloud</td>
   </tr>
   <tr>
     <td><img src="images/hate_speech_wordcloud.png" width=400 height=200></td>
