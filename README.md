@@ -30,7 +30,7 @@ Which includes all following pmpotrtant steps:
 
 NLP allows computers to interact with text data in a structured and sensible way. With NLP, computers are taught to understand human language, its meaning and sentiments. Some of the applications of natural language processing are:
 
-![Blight](https://images.app.goo.gl/idZDeV4QQDDwCBuS7)
+<img src="images/NLP_protcess.png" alt="drawing" width="800" hight="900"/>
 
 ## Analysis
 
