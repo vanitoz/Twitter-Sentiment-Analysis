@@ -46,10 +46,10 @@ Data for this project was soursed from a study about Automated Hate Speech Detec
 
 During EDA we discovered that data from Cornell University appears to be inbalanced with minority class as hate speech and represented on a left side of the graph. After API requests with labeled as hate speech tweets ids we were able to bring more data to our project and balance it. Left side of the graph shows balanced data.
  
-<img align="left" src="images/class_inbal.pn" alt="Made with Angular" title="Angular" hspace="20"/>
-<img align="right" src="images/class_balan.png" alt="Made with Bootstrap" title="Bootstrap" hspace="20"/>
+<img align="left" src="images/class_inbal.pn" alt="Made with Angular" title="Angular" hspace="10"/>
+<img align="right" src="images/class_balan.png" alt="Made with Bootstrap" title="Bootstrap" hspace="10"/>
 
-<br/><br/><br/><br/><br/>
+<br/><br/><br/>
  
 ![alt-text-1](images/class_inbal.png "title-1") ![alt-text-2](images/class_balan.png "title-2")
 
