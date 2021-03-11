@@ -57,7 +57,7 @@ After appropriate Pre-Protcesing that include Tokenization, Remowing Stop-words 
 With WordCloud library we were able to create bags of most imporatnt words in each class. We also observed that both classes has lots of the same words that located in corpus of our data.
 
 <p align="center">
-    <img src="images/clouds.png" alt="drawing" width="600" hight="300"/>
+    <img src="images/clouds.png" alt="drawing" width="900" hight="500"/>
 
 
 
