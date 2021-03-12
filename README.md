@@ -113,4 +113,4 @@ This project shows that we were able to create a system that can provide content
     
 **Authors** <br>
 [Ivan Vanko](https://github.com/vanitoz)<br>
-[Kelvin Arellano](https://github.com/Kelvin-Arellano)<br>
+[Steven Yan](https://github.com/examsherpa)<br>
