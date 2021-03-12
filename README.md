@@ -49,10 +49,10 @@ During EDA we discovered that data from Cornell University appears to be unbalan
  
 
 <p align="center">
-    <img src="images/class_inbal.png" alt="drawing" width="900" hight="600"/>
+    <img src="images/class_inbal.png" alt="drawing" width="600" hight="300"/>
 
 <p align="center">
-    <img src="images/class_balan.png" alt="drawing" width="900" hight="600"/>
+    <img src="images/class_balan.png" alt="drawing" width="600" hight="300"/>
 
 <img src="images/class_inbal.png" width="600"/> <img src="images/class_balan.png" width="600"/>
  
