@@ -39,8 +39,6 @@ Based on our business problem we are trying to accomplish certain tasks that inv
 <p align="center">
     <img src="images/NLP_protcess.png" alt="drawing" width="600" hight="300"/>
 
-
-
 ## Analysis
 
 Data for this project was sourced from a study about Automated Hate Speech Detection and the Problem of Offensive Language conducted by team of Cornell University in 2017. Additional data sources from Association for Computational Linguistics provide us labeled data with tweets ID's that contain hate speech. Links to data sources can be found in references below.
