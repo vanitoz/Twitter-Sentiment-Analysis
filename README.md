@@ -98,7 +98,7 @@ This project shows that we were able to create a system that can provide content
 
 ## Future Work
 
-
+One of the further steps will be to expand this project for multi classification problems. For example, we can classify other types of tweets like offensive speech.
 
 
 ## Repository Structure
