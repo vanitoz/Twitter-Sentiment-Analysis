@@ -4,7 +4,7 @@
     <img src="images/Sentiment Analysis of Tweets Using Python.jpg" alt="drawing" width="1000" hight="400"/>
 
 ## Overview
-Main goal of this project is to create a mode that will be able to identify hate speech using machine learning binary classification algorithms.
+Main goal of this project is to create a model that will be able to identify hate speech using machine learning binary classification algorithms.
 Random Forest, Naive Bayes, Logistic Regression algorithms used to create baseline models. 
 The final model was a Random Forest that used TfidfVectorizer for feature engineering. It produced an F1 of 0.8 and Recall (TPR) of 0.93.
 
