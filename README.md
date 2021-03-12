@@ -92,7 +92,12 @@ Confusion Matrix below explain high True Positive rate. In this business context
 
 ## Conclusion
 The final model prefomance was achived trough ballancing data with additional tweets labeled as hate speech. 
-The bigest part of the progect has been done during Exploratory Data Analyses. It showed specific insides of the data
+The bigest part of the project has been done with Exploratory Data Analyses. It showed specific insides of the data. 
+Final model was created with Random Forest Clasifier and selection of the best parameters from GridSearch.
+Hate speech detection is an extremely difficult task for Machine Learning because of the nuances in English slang and slurs. 
+
+This project was able to get that process started, but there is much more work to be done to keep this content off of public-facing forums such as Twitter.
+
 
 
 ## Future Work
