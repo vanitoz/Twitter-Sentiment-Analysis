@@ -45,7 +45,7 @@ Based on our business problem we are trying to accomplish certain tasks that inv
 
 Data for this project was sourced from a study about Automated Hate Speech Detection and the Problem of Offensive Language conducted by team of Cornell University in 2017. Additional data sources from Association for Computational Linguistics provide us labeled data with tweets ID's that contain hate speech. Links to data sources can be found in references below.
 
-During EDA we discovered that data from Cornell University appears to be unbalanced with minority class as hate speech and represented on the left side of the graph. With API requests using labeled as hate speech tweets ids we were able to bring more data to our project and balance it. Left side of the graph shows balanced data.
+During EDA we discovered that data from Cornell University appears to be unbalanced with minority class as hate speech and represented on the firs graph below. With API requests using labeled as hate speech tweets ids we were able to bring more data to our project and balance it. Second graph below shows balanced data.
  
 
 <img src="images/class_inbal.png" width="500"/> <img src="images/class_balan.png" width="500"/>
