@@ -15,7 +15,7 @@ Surprisingly, most of the social media platforms still don’t have moderate spe
 ## Approach
 
 General Approach for this problem was based on Cross Industry Standard Process for Data Mining (CRISP-DM)
-Which includes all following pmpotrtant steps: 
+Which includes all following impotrtant steps: 
 
 1. Look at the big picture. 
 2. Get the data. 
@@ -40,60 +40,61 @@ Based on our business problem we are trying to accomplish certain tasks that inv
 
 ## Analysis
 
-Data for this project was soursed from a study about Automated Hate Speech Detection and the Problem of Offensive Language conducted by team of Cornell University in 2017. Aditional data sourse from Association for Computational Linguistics provide us labeled data with tweets ID's that contain hate speech. Links to data sourses can be finded in references below.
+Data for this project was sourced from a study about Automated Hate Speech Detection and the Problem of Offensive Language conducted by team of Cornell University in 2017. Additional data sources from Association for Computational Linguistics provide us labeled data with tweets ID's that contain hate speech. Links to data sources can be found in references below.
 
-During EDA we discovered that data from Cornell University appears to be inbalanced with minority class as hate speech and represented on a left side of the graph. After API requests with labeled as hate speech tweets ids we were able to bring more data to our project and balance it. Left side of the graph shows balanced data.
+During EDA we discovered that data from Cornell University appears to be unbalanced with minority class as hate speech and represented on the left side of the graph. With API requests using labeled as hate speech tweets ids we were able to bring more data to our project and balance it. Left side of the graph shows balanced data.
  
 
 <img src="images/class_inbal.png" width="500"/> <img src="images/class_balan.png" width="500"/>
  
-After appropriate Pre-Protcesing that include Tokenization, Remowing Stop-words and Cleaning Data we were able to generate freequency distribution of words within whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turn data into  Docunent-Term Matrix. Graph below shows 25 most freequent words that we were able to find in each class that belong to main corpus.
+After appropriate Pre-Processing that include Tokenization, Removing Stop-words and Cleaning Data we were able to generate frequency distribution of words within the whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turning data into a Document-Term Matrix. Graph below shows the 25 most frequent words that we were able to find in each class that belong to the main corpus.
 
 <p align="center">
     <img src="images/word_count_graphs.png" alt="drawing" width="900" hight="600"/>
 
-With WordCloud library we were able to create bags of most imporatnt words in each class. We also observed that both classes has lots of the same words that located in corpus of our data. Because of the similarities of each label’s vocabulary, it could be difficult for machine learning algorithms to differentiate between them and determine what counts as hate speech.
+With the WordCloud library we were able to create bags of most important words in each class. We also observed that both classes had lots of the same words that were located in the corpus of our data. Because of the similarities of each label’s vocabulary, it could be difficult for machine learning algorithms to differentiate between them and determine what counts as hate speech.
 
 <p align="center">
     <img src="images/clouds.png" alt="drawing" width="900" hight="500"/>
 
-With fruther analyzys we were able to find out and create vocabluary of only words that belong to tweets labeled as hate speech. We found 6312 words that exclusivly belong to tweets labeled as hate speech. Majority of hate speech words are racist, sexist and homophobic slurs that exceed cultural slang. The fact that these words are unique to the "Hate Speech" label affirm that it's indeed hate speech that should be flagged and taken down.
+With further analysis we were able to find out and create vocabulary of only words that belong to tweets labeled as hate speech. We found 6312 words that exclusively belong to tweets labeled as hate speech. Majority of hate speech words are racist, sexist and homophobic slurs that exceed cultural slang. The fact that these words are unique to the "Hate Speech" label affirm that it's indeed hate speech that should be flagged and taken down.
 
 
 <p align="center">
     <img src="images/venn.png" alt="drawing" width="600" hight="300"/>
 
-Graph above represents venn diagram that show how many unique words belong to each class and how many words showing up in both classes. 3391 words showing up in both classes which makes difficult for machine learning model to predict correct lable on particular tweets.
-After futers engeneering with TF-IDF Vectorization the next step take place for creating models and evaluate them.
-
+Graph above represents a venn diagram that shows how many unique words belong to each class and how many words show up in both classes. 3391 words showing up in both classes which makes it difficult for machine learning models to predict the correct label on particular tweets.
+After futers engineering with TF-IDF Vectorization the next step takes place for creating models and evaluating them.
 
 ## Modeling
 
 F1 score and Recall was used as main evaluation metrics for this project. We want to classify correct hate speech as much as possible and so that it can be efficiently removed. 
-Starting with base line models, Random Forest, Naive Bayes, Logistic Regression was applied to inbalance data. Best result was shown by Random Forest Model with Recall = 12% and F1-score = 19%
+Starting with baseline models, Random Forest, Naive Bayes, Logistic Regression was applied to imbalanced data. Best result was shown by Random Forest Model with Recall = 12% and F1-score = 19%
 
-Next step was to run the same 3 models on ballanced data. Following table shows perfomance of each model on test set.
+Next step was to run the same 3 models on balanced data. Following table shows the performance of each model on the test set.
 
 <p align="center">
     <img src="images/results.png" alt="drawing" width="500" hight="250"/>
  
-Based on results, the heighest Recall and F-1 score acchived with Random Forest and Naive Bayes classifier. Following step was to use GridSearch with Random Forest classifier to get best parameters in order to achive higer Recall score. Random Forest with Hyper Parameters selected with GridSearch let us create final model with following results on testing data: 
+Based on results, the highest Recall and F-1 score achieved with Random Forest and Naive Bayes classifier. Following step was to use GridSearch with a Random Forest classifier to get the best parameters in order to achieve a higher Recall score. Random Forest with Hyper Parameters selected with GridSearch let us create final model with following results on testing data: 
 Precision: 0.7124
 Recall: 0.937
 Testing Accuracy: 0.7816
 F1 Score: 0.8094
 
-Confusion Matrix below explain high True Positive rate. In this business context, we would ideally want as many True Positives as possible, because that would be identifying Hate Speech correctly.
+
+The Confusion Matrix below explains the high True Positive rate. In this business context, we would ideally want as many True Positives as possible, because that would be identifying Hate Speech correctly.
 
 <p align="center">
     <img src="images/matrix.png" alt="drawing" width="350" hight="350"/>
 
 ## Conclusion
-The final model prefomance was achived trough ballancing data with additional tweets labeled as hate speech. 
-The bigest part of the project has been done with Exploratory Data Analyses. It showed specific insides of the data. 
-Final model was created with Random Forest Clasifier and selection of the best parameters from GridSearch.
+The final model performance was achieved through balancing data with additional tweets labeled as hate speech. 
+The biggest part of the project has been done with Exploratory Data Analyses. It showed specific insides of the data. 
+Final model was created with Random Forest Classifier and selection of the best parameters from GridSearch.
 Hate speech detection is an extremely difficult task for Machine Learning because of the nuances in English slang and slurs. 
 This project shows that we were able to create a system that can provide content moderation with pretty good results.
+
 
 ## Future Work
 
