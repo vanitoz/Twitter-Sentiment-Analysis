@@ -91,7 +91,8 @@ Confusion Matrix below explain high True Positive rate. In this business context
     <img src="images/matrix.png" alt="drawing" width="350" hight="350"/>
 
 ## Conclusion
-
+The final model prefomance was achived trough ballancing data with additional tweets labeled as hate speech. 
+The bigest part of the progect has been done during Exploratory Data Analyses. It showed specific insides of the data
 
 
 ## Future Work
