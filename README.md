@@ -1,7 +1,7 @@
 # Sentiment Analysis on Twitter. Hate Speech recognition
 
 <p align="center">
-    <img src="images/Sentiment Analysis of Tweets Using Python.jpg" alt="drawing" width="900" hight="400"/>
+    <img src="images/Sentiment Analysis of Tweets Using Python.jpg" alt="drawing" width="1000" hight="400"/>
 
 ## Overview
 Main goal of this project is to create a mode that will be able to identify hate speech using machine learning binary classification algorithms.
