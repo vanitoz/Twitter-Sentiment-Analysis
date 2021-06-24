@@ -20,7 +20,7 @@ Surprisingly, most of the social media platforms still don’t have moderate spe
 ## Approach
 
 General Approach for this problem was based on Cross Industry Standard Process for Data Mining (CRISP-DM)
-Which includes all following impotrtant steps: 
+Which includes all following important steps: 
 
 1. Look at the big picture. 
 2. Get the data. 
@@ -29,7 +29,7 @@ Which includes all following impotrtant steps:
 5. Select a model and train it. 
 6. Fine-tune your model. 
 7. Present your solution. 
-8. Launch, monitor, and maintain system.
+8. Launch, monitor, and maintain the system.
 
 <p align="center">
     <img src="images/approach.png" alt="drawing" width="500" hight="200"/>
