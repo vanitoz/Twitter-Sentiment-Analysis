@@ -36,21 +36,22 @@ Which includes all following important steps:
     
 ## Methodology
 
-Based on our business problem we are trying to accomplish certain tasks that involve natural language. NLP allows computers to interact with text data in a structured and sensible way. With NLP, computers are taught to understand human language, its meaning and sentiments. In order to translate complex natural human language into systematic constructed features we need to follow some major steps which showed on the next graph.
+Based on our business problem we are trying to accomplish certain tasks that involve natural language. NLP allows computers to interact with text data in a structured and sensible way. With NLP, computers are taught to understand human language, its meaning and sentiments. In order to translate complex natural human language into systematically constructed features we need to follow some major steps which showed on the next graph.
 
 <p align="center">
     <img src="images/NLP_protcess.png" alt="drawing" width="600" hight="300"/>
 
 ## Analysis
 
-Data for this project was sourced from a study about Automated Hate Speech Detection and the Problem of Offensive Language conducted by team of Cornell University in 2017. Additional data sources from Association for Computational Linguistics provide us labeled data with tweets ID's that contain hate speech. Links to data sources can be found in references below.
+Data for this project was sourced from a study about Automated Hate Speech Detection and the Problem of Offensive Language conducted by a team of Cornell University in 2017. Additional data sources from Association for Computational Linguistics provide us with labeled data with tweets ID's that contain hate speech. Links to data sources can be found in references below.
 
-During EDA we discovered that data from Cornell University appears to be unbalanced with minority class as hate speech and represented on the firs graph below. With API requests using labeled as hate speech tweets ids we were able to bring more data to our project and balance it. Second graph below shows balanced data.
+During EDA we discovered that data from Cornell University appears to be unbalanced with minority class hate speech and represented on the firs graph below. With API requests labeled as hate speech tweets ids we were able to bring more data to our project and balance it. Second graph below shows balanced data.
+
 
 <p align="center">
     <img src="images/classes_ballances.png" alt="drawing" width="900" hight="500"/>
  
-After appropriate Pre-Processing that include Tokenization, Removing Stop-words and Cleaning Data we were able to generate frequency distribution of words within the whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turning data into a Document-Term Matrix. Graph below shows the 25 most frequent words that we were able to find in each class that belong to the main corpus.
+After appropriate Pre-Processing that included  Tokenization, Removing Stop-words and Cleaning Data we were able to generate frequency distribution of words within the whole corpus. It helped to understand data better and explained to us what kind of additional cleaning needs to be done before turning data into a Document-Term Matrix. Graph below shows the 25 most frequent words that we were able to find in each class that belong to the main corpus.
 
 <p align="center">
     <img src="images/word_count_graphs.png" alt="drawing" width="900" hight="600"/>
